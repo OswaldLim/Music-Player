@@ -1,0 +1,399 @@
+1
+00:00:03,147 --> 00:00:04,935
+Uh hello everyone. Today I'm going to
+
+2
+00:00:04,935 --> 00:00:06,747
+like them present and demonstrate about
+
+3
+00:00:06,888 --> 00:00:08,182
+my music player app that I have made
+
+4
+00:00:08,465 --> 00:00:10,818
+using Python And this is my code. I have
+
+5
+00:00:10,818 --> 00:00:12,394
+imported like firstly I have imported the
+
+6
+00:00:12,394 --> 00:00:14,347
+necessary modules like TK, enter, pie,
+
+7
+00:00:14,347 --> 00:00:16,229
+game, time, mutagen, threading, pile,
+
+8
+00:00:16,559 --> 00:00:18,794
+image and random and these are the
+
+9
+00:00:19,029 --> 00:00:20,818
+the path of for the files that I'll be
+
+10
+00:00:20,818 --> 00:00:22,794
+using. Which are the name list for the
+
+11
+00:00:22,888 --> 00:00:24,465
+accounts, the database for the music and
+
+12
+00:00:24,488 --> 00:00:27,482
+I mean and playlist is. The playlist for
+
+13
+00:00:27,482 --> 00:00:29,788
+individual users and here are the files.
+
+14
+00:00:29,953 --> 00:00:31,718
+So this name file consists of the.
+
+15
+00:00:32,871 --> 00:00:34,400
+The e-mail address,  thepassword and this
+
+16
+00:00:34,400 --> 00:00:36,612
+is a user ID that I've given to each new
+
+17
+00:00:36,894 --> 00:00:39,576
+new user and playlist is for each.
+
+18
+00:00:39,829 --> 00:00:40,982
+This is the user ID and this is their
+
+19
+00:00:40,982 --> 00:00:42,982
+playlist for each users in the song DB in
+
+20
+00:00:42,982 --> 00:00:44,488
+some database. Here are all the songs
+
+21
+00:00:44,488 --> 00:00:46,206
+that I currently have. And yeah this
+
+22
+00:00:46,206 --> 00:00:48,229
+sound did we just stores all the song
+
+23
+00:00:48,276 --> 00:00:49,241
+name of the songs that I currently have
+
+24
+00:00:49,241 --> 00:00:51,741
+in my database. No. Yeah in this in this
+
+25
+00:00:51,741 --> 00:00:52,635
+is like initializing some of the
+
+26
+00:00:52,635 --> 00:00:53,247
+variables.
+
+27
+00:03:02,135 --> 00:03:03,947
+Now this is so the playlist will be
+
+28
+00:03:03,947 --> 00:03:05,264
+empty. Since you're using a sketch, your
+
+29
+00:03:05,264 --> 00:03:06,441
+playlist won't be saved and you won't
+
+30
+00:03:06,441 --> 00:03:08,582
+have a playlist. And you can open your
+
+31
+00:03:08,582 --> 00:03:09,617
+playlist here using this button. Here
+
+32
+00:03:09,806 --> 00:03:11,029
+this is like the volume control and all
+
+33
+00:03:11,029 --> 00:03:12,464
+this is the shuffle button and this is
+
+34
+00:03:12,464 --> 00:03:13,664
+the loop button. This is backward.
+
+35
+00:03:13,988 --> 00:03:16,529
+Forward, Start, Pause and end button. You
+
+36
+00:03:16,529 --> 00:03:17,494
+click this button to close out of the
+
+37
+00:03:17,494 --> 00:03:19,312
+program. And now let's
+
+38
+00:04:01,390 --> 00:04:02,401
+But if you log in as a guest and next
+
+39
+00:04:02,401 --> 00:04:03,095
+time, your playlist still won't be there.
+
+40
+00:04:03,095 --> 00:04:04,822
+And that's like the one of the bad things
+
+41
+00:04:04,822 --> 00:04:06,295
+about log using my music player as a
+
+42
+00:04:06,295 --> 00:04:09,085
+guest. Now for the register and login
+
+43
+00:04:09,085 --> 00:04:10,369
+functions. So you will need to register an
+
+44
+00:04:10,369 --> 00:04:12,295
+ e-mail first. Uh, the e-mail format has
+
+45
+00:04:12,295 --> 00:04:14,085
+to be correct. Or else it will if you
+
+46
+00:04:14,085 --> 00:04:15,474
+click register typing anything, OK, it
+
+47
+00:04:15,474 --> 00:04:16,801
+was pop up an error. To show that you'd
+
+48
+00:04:16,801 --> 00:04:18,822
+have to type in a valid e-mail format@
+
+49
+00:04:18,148 --> 00:04:19,517
+whichisexamplemail. com or something
+
+50
+00:04:19,517 --> 00:04:22,038
+else. So uh, even if you only type like
+
+51
+00:04:22,038 --> 00:04:24,480
+ 1.1 some, uh add something, it still
+
+52
+00:04:24,480 --> 00:04:25,217
+won't work. You need to have the full
+
+53
+00:04:25,217 --> 00:04:25,680
+ e-mail format.
+
+54
+00:04:28,780 --> 00:04:30,780
+I'll just type in the random e-mail 6 and
+
+55
+00:04:30,780 --> 00:04:32,106
+this button is show to show the password
+
+56
+00:04:32,527 --> 00:04:33,727
+that we've typing like more for more
+
+57
+00:04:33,727 --> 00:04:35,874
+privacy. What is your? I'll just type it.
+
+58
+00:04:35,874 --> 00:04:37,622
+Yeah, register. OK, successfully register
+
+59
+00:04:37,622 --> 00:04:38,359
+and now it will bring us back to that
+
+60
+00:04:38,359 --> 00:04:39,222
+music player and we can log in using
+
+61
+00:04:39,222 --> 00:04:40,569
+the e-mail that  you'veregistered. I see
+
+62
+00:04:40,569 --> 00:04:42,780
+it's a bad. As it is.
+
+63
+00:04:44,480 --> 00:04:44,648
+OK.
+
+64
+00:04:51,895 --> 00:04:51,980
+Name.
+
+65
+00:04:54,232 --> 00:04:55,517
+156 7456. com.
+
+66
+00:05:04,011 --> 00:05:05,106
+And now we're in the music players and we
+
+67
+00:05:05,106 --> 00:05:07,306
+can add songs. As as in as, like with the
+
+68
+00:05:07,306 --> 00:05:08,253
+guest you can just add some any songs
+
+69
+00:05:08,253 --> 00:05:09,011
+that you like and you can play them.
+
+70
+00:05:16,927 --> 00:05:18,548
+Like so for the loop function. I'll show
+
+71
+00:05:18,548 --> 00:05:19,432
+you that it works using the loop
+
+72
+00:05:19,432 --> 00:05:21,853
+function. So basically when the song
+
+73
+00:05:21,853 --> 00:05:23,306
+finishes playing they will auto repeat
+
+74
+00:05:23,306 --> 00:05:23,769
+the song again.
+
+75
+00:06:46,930 --> 00:06:49,161
+it for my music player and to show some
+
+76
+00:06:49,161 --> 00:06:51,177
+error handling. We're logging, We're
+
+77
+00:06:51,177 --> 00:06:54,104
+logging in. So when you're registering an
+
+78
+00:06:54,104 --> 00:06:57,072
+ e-mail. We've already
+
+79
+00:06:57,072 --> 00:06:58,230
+registered that e-mail, so if we register
+
+80
+00:06:58,230 --> 00:07:00,840
+this e-mail again, it will show that. An
+
+81
+00:07:00,840 --> 00:07:01,683
+account has already been registered using
+
+82
+00:07:01,683 --> 00:07:02,672
+the same e-mail and if we type in the
+
+83
+00:07:02,672 --> 00:07:04,098
+password. So you've received an e-mail
+
+84
+00:07:04,098 --> 00:07:04,835
+and we type in the password that is
+
+85
+00:07:04,835 --> 00:07:06,035
+lesser than 8 characters, it'll it'll
+
+86
+00:07:06,035 --> 00:07:06,961
+it'll pop up a message saying invalid
+
+87
+00:07:06,961 --> 00:07:09,072
+password. And if we try logging in.
+
+88
+00:07:10,504 --> 00:07:11,430
+156. com.
+
+89
+00:07:14,983 --> 00:07:15,783
+And if you type in the wrong password, it
+
+90
+00:07:15,783 --> 00:07:16,856
+would just pop up incorrect password.
+
+91
+00:07:16,856 --> 00:07:17,761
+It'll deny our access to the music,
+
+92
+00:07:17,761 --> 00:07:18,583
+video, music player.
+
+93
+00:07:31,804 --> 00:07:33,404
+And if you're playing and no matter if we
+
+94
+00:07:33,404 --> 00:07:36,272
+pause, like. Re pause the song, the
+
+95
+00:07:36,272 --> 00:07:37,219
+animation will also stop along with the
+
+96
+00:07:37,219 --> 00:07:38,588
+songs we need to continue. It will just
+
+97
+00:07:38,588 --> 00:07:39,725
+keep on moving. We stop the sound
+
+98
+00:07:39,725 --> 00:07:40,756
+completely. This will return to 0 and the
+
+99
+00:07:40,756 --> 00:07:43,656
+animation will. OK, yeah, that's it for
+
+100
+00:07:43,656 --> 00:07:44,161
+the music player.
